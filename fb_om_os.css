@@ -1,0 +1,36 @@
+/**************************generalle regler margin img***********************/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/************************ billeder ************************************************/
+img {
+  position: relative;
+  left: 17px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: unset;
+}
+/******************************* tekst ****************************/
+.overskrift {
+  margin: 10%;
+  margin-left: 40%;
+}
+p {
+  margin-left: 10%;
+}
+/*******************************grid*****************************/
+.grid_omos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid_billeder {
+  grid-column: 1;
+  grid-row: 1;
+}
+.grid_tekst {
+  grid-column: 2;
+  grid-row: 1;
+}
