@@ -1,24 +1,21 @@
-/**************************generalle regler margin img***********************/
-main {
-  
-}
 /************************ billeder ************************************************/
-img {
+.grid_billeder{
   position: relative;
   left: 17px;
   margin-bottom: 10px;
-  width: 100%;
-  height: auto;
-  display: block;
-  position: unset;
+  top: 100px;
+
 }
 /******************************* tekst ****************************/
 .overskrift {
   margin: 10%;
   margin-left: 40%;
+  font-size: 2rem;
 }
 p {
+  margin: 5%;
   margin-left: 10%;
+  font-size: 1rem;
 }
 /*******************************grid*****************************/
 .grid_omos {
