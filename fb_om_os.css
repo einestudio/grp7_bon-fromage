@@ -1,10 +1,9 @@
 /************************ billeder ************************************************/
-.grid_billeder{
+.grid_billeder {
   position: relative;
   left: 17px;
   margin-bottom: 10px;
   top: 100px;
-
 }
 /******************************* tekst ****************************/
 .overskrift {
@@ -13,9 +12,11 @@
   font-size: 2rem;
 }
 p {
-  margin: 5%;
+  margin-top: 30px;
+  margin-bottom: 5%;
   margin-left: 10%;
   font-size: 1rem;
+  background-color: #c7d2dd;
 }
 /*******************************grid*****************************/
 .grid_omos {
