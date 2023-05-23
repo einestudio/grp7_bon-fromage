@@ -1,22 +1,32 @@
 /************************ billeder ************************************************/
-.grid_billeder {
-  position: relative;
-  left: 17px;
-  margin-bottom: 10px;
-  top: 100px;
+.billed_ejer {
+  margin-top: 200px;
+}
+.billed_butik {
+  margin-top: 15px;
 }
 /******************************* tekst ****************************/
-.overskrift {
-  margin: 10%;
-  margin-left: 40%;
-  font-size: 2rem;
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
 }
-p {
-  margin-top: 30px;
+.tekst p {
   margin-bottom: 5%;
-  margin-left: 10%;
-  font-size: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8%;
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+
+.text_box {
+  margin-top: 260px;
+  margin-left: 30px;
   background-color: #c7d2dd;
+  width: 500px;
+  height: 650px;
 }
 /*******************************grid*****************************/
 .grid_omos {
@@ -27,7 +37,7 @@ p {
   grid-column: 1;
   grid-row: 1;
 }
-.grid_tekst {
+.tekst {
   grid-column: 2;
   grid-row: 1;
 }
