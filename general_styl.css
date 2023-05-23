@@ -23,7 +23,6 @@ img{
 
 header {
     display: flex;
-    align-items: center;
   }
   
   li{
@@ -32,7 +31,10 @@ header {
   
   nav {
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    text-align: center;
+   
+}
   
 .menu
 {display: flex;
@@ -40,15 +42,13 @@ list-style: none;
 }
 
 .menu a{color: black;
- text-decoration: none;}
+ text-decoration: none;
+font-size: 20px;}
 
  .menu a:hover {
     color:#71181F;
   }
-  
-
-
-
+ 
 
 /******************* logo *******************/
 .logo{
@@ -59,7 +59,7 @@ padding-top: 30px;
 
 .logo2{
 
-    width: 13%;
+    width: 40%;
     padding-top: 120px;
     }
 
@@ -67,7 +67,7 @@ padding-top: 30px;
   /****************** main *******************/    
 
   main{
-    height: 1000px;
+    height: 2000px;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -81,5 +81,44 @@ padding-top: 30px;
 footer{
     background-color: #71181F;
     height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+footer a:hover{
+    color: #7118;
+}
+
+
+
+.kontakt{
+    padding-top: 100px;
+    height: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.kontakt, .kontakt2 p{
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
+
+.kontakt2{
+    padding-top: 100px;
+    height: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 /************************************ Fonts **************************************/
