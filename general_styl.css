@@ -50,7 +50,9 @@ font-size: 22px;}
  .menu a:hover {
     color:#71181F;
   }
- 
+ a.active {
+  color: #71181F;
+}
 
 /******************* logo *******************/
 .logo{
