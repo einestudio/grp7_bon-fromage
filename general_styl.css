@@ -1,128 +1,114 @@
 /************************************* Menu ***************************************/
-*
-{
-
-
-margin:0;
-padding:0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img{
-    width:100%;
-    display:block;
-    height:auto;
-
+img {
+  width: 100%;
+  display: block;
+  height: auto;
 }
-
-
 
 /****************** header *******************/
 
-.headliner{
-    background-color:#c7d2dd;
-    width: 100%;
-    height: 35px;
+.headliner {
+  background-color: #c7d2dd;
+  width: 100%;
+  height: 35px;
 }
 
-.headliner p{
-    color: white;
-    text-align: center;
-    padding-top: 10px;
+.headliner p {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 
 /******************* menu *******************/
 
-  
-  
-.menu
-{display: flex;
-list-style: none;
-justify-content: center;
-gap: 90px;
-
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 90px;
 }
 
-.menu a{color: black;
- text-decoration: none;
-font-size: 22px;}
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+}
 
- .menu a:hover {
-    color:#71181F;
-  }
- a.active {
-  color: #71181F;
+.menu a:hover {
+  color: #71181f;
+}
+a.active {
+  color: #71181f;
 }
 
 /******************* logo *******************/
-.logo{
-
-width: 35%;
-padding-top: 30px;
+.logo {
+  width: 35%;
+  padding-top: 30px;
 }
 
-.logo2{
-
-    width: 40%;
-    padding-top: 120px;
-    }
-
-
-  /****************** main *******************/    
-
-  main{
-    height: 2000px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  body{
-    background-image: url(logos/tiles_osteposten_v2.svg);
-    background-size: cover;
-  }
-
-  /****************** footer *******************/    
-footer{
-    background-color: #71181F;
-    height: 350px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+.logo2 {
+  width: 40%;
+  padding-top: 120px;
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
-  
+/****************** main *******************/
+
+main {
+  height: 2000px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-footer a:hover{
-    color: #7118;
+body {
+  background-image: url(logos/tiles_osteposten_v2.svg);
+  background-size: cover;
 }
 
-
-
-.kontakt{
-    padding-top: 100px;
-    height: 20px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+/****************** footer *******************/
+footer {
+  background-color: #71181f;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-.kontakt, .kontakt2 p{
-    color: #ffffff;
-    font-family: Helvetica, sans-serif;
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
-.kontakt2{
-    padding-top: 100px;
-    height: 20px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+footer a:hover {
+  color: #7118;
+}
+
+.kontakt {
+  padding-top: 100px;
+  height: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.kontakt,
+.kontakt2 p {
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+}
+
+.kontakt2 {
+  padding-top: 100px;
+  height: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 /************************************ Fonts **************************************/
