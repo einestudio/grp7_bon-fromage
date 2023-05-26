@@ -35,8 +35,17 @@ h2{
 }
 
 .pris{
-   padding-left: 55px;
+   padding-left: 40px;
    padding-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+   
+}
+
+.pris2{
+   padding-left: 120px;
+   padding-top: 5px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    font-size: 13px;
@@ -53,9 +62,10 @@ h2{
    flex-direction: column;
    gap: 20px;
    line-height: 25px;
-   font-size: 17px;
+   font-size: 15px;
    padding-right: 90px;
    padding-top: 15px;
    font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
 }
 
