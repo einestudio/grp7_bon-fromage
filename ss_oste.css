@@ -1,15 +1,18 @@
 h1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 50px;
+  font-family: "playfair";
+  padding-top: 70px;
+  font-size: 45px;
 }
+
 h2 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 125px;
+  font-family: "playfair";
+  padding-top: 100px;
 }
 
 .grid_ost {
+  background-color: #c7d2dd7c;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
