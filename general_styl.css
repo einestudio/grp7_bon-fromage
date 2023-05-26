@@ -91,7 +91,7 @@ padding-top: 10px;
   /****************** main *******************/    
 
   main{
-    height: 3000px;
+    height: auto;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -115,6 +115,7 @@ footer {
   height: 350px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 250px;
 }
 
 footer a {
