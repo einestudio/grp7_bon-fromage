@@ -1,4 +1,4 @@
-/************************************* Menu ***************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -11,34 +11,60 @@ img {
   height: auto;
 }
 
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
 /****************** header *******************/
 
-.headliner {
-  background-color: #c7d2dd;
-  width: 100%;
-  height: 35px;
+
+.gul_top{
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
 }
 
-.headliner p {
-  color: white;
-  text-align: center;
-  padding-top: 10px;
+.headliner{
+    background-image: url(logos/osteposten_header_adobe_express.svg);
+    width: 100%;
+    height: 130px;
+    position: -webkit-sticky;
+   position: sticky;
+   top: 150px;
+   background-repeat:inherit;
+   background-size: contain;
 }
+   
+
 
 /******************* menu *******************/
 
-.menu {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 90px;
+
+
+  .menubar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+.menu
+{display: flex;
+list-style: none;
+gap: 90px;
+padding-top: 60px;
+align-items: stretch;
+padding-left: 50px ;
+
 }
 
-.menu a {
-  color: black;
-  text-decoration: none;
-  font-size: 22px;
+.menu a{color: black;
+ text-decoration: none;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
 }
+
 
 .menu a:hover {
   color: #71181f;
@@ -48,28 +74,42 @@ a.active {
 }
 
 /******************* logo *******************/
-.logo {
-  width: 35%;
-  padding-top: 30px;
+
+.logo{
+
+width: 65%;
+padding-top: 15px;
+padding-left: 20px;
 }
 
-.logo2 {
-  width: 40%;
-  padding-top: 120px;
-}
+.logo2{
 
-/****************** main *******************/
+    width: 80%;
+    padding-top: 90px;
+    padding-left: 20px;
+    }
 
-main {
-  height: 2000px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-body {
-  background-image: url(logos/tiles_osteposten_v2.svg);
-  background-size: cover;
-}
+  /****************** main *******************/    
+
+  main{
+    height: 3000px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+
+  body{
+    background-image: url(logos/smaa_tiles.svg);
+    background-size: cover;
+    background-attachment: fixed;
+  }  
+
+
+
+
+
 
 /****************** footer *******************/
 footer {
@@ -84,31 +124,43 @@ footer a {
   color: white;
 }
 
+
+
+.kontakt{
+    padding-top: 50px;
+    height: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 200px;
+}
+   
+
 footer a:hover {
   color: #7118;
+
 }
 
-.kontakt {
-  padding-top: 100px;
-  height: 20px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+
+
+
+.kontakt, .kontakt2 p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.kontakt,
-.kontakt2 p {
-  color: #ffffff;
-  font-family: Helvetica, sans-serif;
+.kontakt2{
+    padding-top: 50px;
+    height: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 240px;
 }
 
-.kontakt2 {
-  padding-top: 100px;
-  height: 20px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
+
+
 /************************************ Fonts **************************************/
