@@ -12,6 +12,8 @@ img {
 }
 
 
+@media(min-width:800px){
+
 h1{
   font-family: 'playfair';
   text-align: center;
@@ -165,3 +167,141 @@ footer a:hover {
 
 
 /************************************ Fonts **************************************/
+
+}
+
+/********************************** mobilsite **********************************/
+
+@media(max-width:800px){
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+h1{
+  font-family: 'playfair';
+  text-align: center;
+  padding-top: 50px;
+  font-size:30px ;
+}
+
+/****************** header *******************/
+
+
+.headliner{
+    background-image: url(logos/osteposten_header_adobe_express.svg);
+    width: 100%;
+    height: 70px;
+
+  
+}
+   
+
+
+/******************* menu *******************/
+
+
+
+
+
+/******************* logo *******************/
+
+.logo{
+
+ display: none;
+  }
+  
+  .logo2{
+  
+     display: none;
+      }
+  
+
+  /****************** main *******************/    
+
+  main{
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+
+  body{
+    background-image: url(logos/smaa_tiles.svg);
+    background-size: cover;
+    background-attachment: fixed;
+  }  
+
+
+
+
+
+
+/****************** footer *******************/
+footer {
+  background-color: #71181f;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+ 
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.kontakt{
+    padding-top: 50px;
+    height: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+  
+   
+}
+   
+
+footer a:hover {
+  color: #7118;
+
+}
+
+
+
+
+.kontakt, .kontakt2 p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.kontakt2{
+    padding-top: 50px;
+    height: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  
+}
+
+}

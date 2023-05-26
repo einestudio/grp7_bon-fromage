@@ -86,17 +86,20 @@ h1{
 h2{
     text-align: center;
     font-family: 'playfair';
-    padding-top: 700px;
+    padding-top: 200px;
+    font-size: 20px;
  }
 
 .foto_boks{
     background-color:#c7d2ddd9;
     width: 100%;
-    height: 700px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    height: 790px;
    margin: 0 auto;
    margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   flex-flow: column-reverse;
+   
     
     
 }
@@ -112,16 +115,17 @@ h2{
    padding-top: 10px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 12px;
    
 }
 
 .pris2{
-   padding-left: 120px;
+   padding-left: 40px;
    padding-top: 5px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 12px;
+   padding-bottom: 20px;
    
 }
 
@@ -135,34 +139,15 @@ h2{
    flex-direction: column;
    gap: 20px;
    line-height: 25px;
-   font-size: 10px;
-   padding-right: 90px;
-   padding-top: 15px;
+   font-size: 12px;
+   padding-right: 7px;
+   padding-left: 7px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bolder;
+   padding-top: 1px;
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
