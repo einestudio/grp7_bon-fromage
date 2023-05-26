@@ -7,7 +7,7 @@ h1{
    text-align: center;
    font-family: 'playfair';
    padding-top: 70px;
-   font-size: 45px;
+
 }
 
 h2{
@@ -69,3 +69,107 @@ h2{
    font-weight: bolder;
 }
 
+/************************ mobilsite ***********************/
+@media(max-width:800px){
+
+
+
+
+
+
+
+h1{
+   text-align: center;
+   font-family: 'playfair';
+   padding-top: 70px;
+   font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'playfair';
+    padding-top: 700px;
+ }
+
+.foto_boks{
+    background-color:#c7d2ddd9;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   margin: 0 auto;
+   margin-top: 20px;
+    
+    
+}
+
+.ostekassen1{
+   width: 80%;
+   padding-top: 30px;
+   padding-left: 40px;
+}
+
+.pris{
+   padding-left: 40px;
+   padding-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+   
+}
+
+.pris2{
+   padding-left: 120px;
+   padding-top: 5px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+   
+}
+
+
+
+
+
+.abonnement_tekst{
+
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   line-height: 25px;
+   font-size: 10px;
+   padding-right: 90px;
+   padding-top: 15px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
