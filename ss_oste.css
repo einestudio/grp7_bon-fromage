@@ -11,7 +11,14 @@ h2 {
   padding-top: 100px;
 }
 
-p {
+.lande {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+}
+
+.pris {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
@@ -40,7 +47,7 @@ p {
 .sidebar {
   width: 250px;
   height: 100%;
-  position: fixed;
+  position: absolute;
   top: 300px;
   left: -250px;
   background-color: #f2f2f200;
@@ -52,7 +59,7 @@ p {
 
 .sidebar-toggle {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 270px;
   left: 10px;
   z-index: 9999;
