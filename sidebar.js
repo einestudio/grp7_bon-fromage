@@ -6,3 +6,17 @@ function toggleSidebar() {
   var sidebar = document.getElementById("sidebar");
   sidebar.classList.toggle("show-sidebar");
 }
+
+
+
+
+
+window.onload = function() {
+  var popup = document.getElementById('popup');
+  popup.style.display = 'block';
+};
+
+function closePopup() {
+  var popup = document.getElementById('popup');
+  popup.style.display = 'none';
+}
