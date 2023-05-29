@@ -27,26 +27,26 @@ h2{
 }
 
 .ostekassen1{
-   width: 80%;
-   padding-top: 30px;
-   padding-left: 40px;
+   width: 90%;
+   padding-top: 38px;
+   padding-left: 38px;
 }
 
 .pris{
-   padding-left: 40px;
+   padding-left: 60px;
    padding-top: 10px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 15px;
    
 }
 
 .pris2{
-   padding-left: 120px;
+   padding-left: 140px;
    padding-top: 5px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 15px;
    
 }
 
