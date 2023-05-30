@@ -81,6 +81,7 @@ img {
     width: 30px;
     height: 20px;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
   }
 
   .burger .line {
