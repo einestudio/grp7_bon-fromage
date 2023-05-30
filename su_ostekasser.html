@@ -5,25 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ostekasser</title>
+    <link rel="shortcut icon" type="image/svg" href="logos/favicon.svg" />
     <link rel="stylesheet" href="su_ostekasser.css" />
     <link rel="stylesheet" href="general_styl.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair:wght@600&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <div class="logo">
-        <a href="kb_index.html">
-          <img class="logo" src="logos/farve_større_1.svg" alt="logo" />
-        </a>
+      <div class="gul_top">
+        <div class="menubar">
+          <div class="logo">
+            <a href="kb_index.html">
+              <img class="logo" src="logos/farve_større_1.svg" alt="logo" />
+            </a>
+          </div>
+          <div>
+            <nav>
+              <ul class="menu">
+                <li><a class="" href="ss_oste.html">Oste</a></li>
+                <li><a class="active" href="na_abonnement.html">Abonnement</a></li>
+                <li><a class="" href="su_ostekasser.html">Ostekasser</a></li>
+                <li><a class="" href="fb_om_os.html">Om os</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="ikoner">
+            <img src="SVG/search.svg" alt="søg" />
+            <img src="SVG/person.svg" alt="bruger" />
+            <img src="SVG/shoppingcart.svg" alt="kurv" />
+          </div>
+        </div>
       </div>
-      <nav>
-        <ul class="menu">
-          <li><a class="active" href="ss_oste.html">Oste</a></li>
-          <li><a class="active" href="na_abonnement.html">Abonnement</a></li>
-          <li><a class="active" href="su_ostekasser.html">Ostekasser</a></li>
-          <li><a class="active" href="fb_om_os.html">Om os</a></li>
-        </ul>
-      </nav>
+
+      <div class="headliner"><p></p></div>
     </header>
     <main>
       <h1>Ostekasser</h1>
@@ -31,38 +53,29 @@
       <div id="grid_ostekasser">
         <div class="ostekasse">
           <img src="billeder_ostekasser/ostekasse1.jpeg" alt="ostekasse1" id="ostekasse1" />
-          <div class="tekst_pris">
-            <p>Danske Krystaller</p>
-            <p>259,00 kr.</p>
-          </div>
+          <p class="titel">Danske Krystaller</p>
+          <p class="pris">259,-</p>
         </div>
         <div class="ostekasse">
           <img src="billeder_ostekasser/ostekasse2.jpeg" alt="ostekasse2" id="ostekasse2" />
-          <div class="tekst_pris">
-            <p>Franske Klassikere</p>
-            <p>299,00 kr.</p>
-          </div>
+          <p class="titel">Franske Klassikere</p>
+          <p class="pris">299,-</p>
         </div>
         <div class="ostekasse">
           <img src="billeder_ostekasser/ostekasse3.jpeg" alt="ostekasse3" id="ostekasse3" />
-          <div class="tekst_pris">
-            <p>Basis Ostekasse</p>
-            <p>199,00 kr.</p>
-          </div>
+          <p class="titel">Basis Ostekasse</p>
+          <p class="pris">199,-</p>
         </div>
         <div class="ostekasse">
           <img src="billeder_ostekasser/ostekasse4.jpeg" alt="ostekasse4" id="ostekasse4" />
-          <div class="tekst_pris">
-            <p>Date for to</p>
-            <p>249,00 kr.</p>
-          </div>
+
+          <p class="titel">Date for to</p>
+          <p class="pris">249,-</p>
         </div>
         <div class="ostekasse">
           <img src="billeder_ostekasser/ostekasse5.jpeg" alt="ostekasse5" id="ostekasse5" />
-          <div class="tekst_pris">
-            <p>Jægeren</p>
-            <p>399,00 kr.</p>
-          </div>
+          <p class="titel">Jægeren</p>
+          <p class="pris">399,-</p>
         </div>
       </div>
     </main>
@@ -84,5 +97,6 @@
       </div>
     </footer>
     <script src="login.js"></script>
+    <script src="sidebar.js"></script>
   </body>
 </html>

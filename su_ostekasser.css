@@ -5,6 +5,20 @@ h1 {
   padding-bottom: 50px;
 }
 
+.titel {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+}
+
+.pris {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
 /*******************BILLEDER******************/
 
 #ostekasse_cover {
@@ -27,12 +41,4 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: #c7d2ddbd;
-}
-
-.tekst_pris {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  gap: 1.5rem;
 }
