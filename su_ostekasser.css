@@ -5,16 +5,33 @@ h1 {
   padding-bottom: 50px;
 }
 
+.titel {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+}
+
+.pris {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
 /*******************BILLEDER******************/
 
 #ostekasse_cover {
   width: 100%;
   padding-bottom: 5%;
+  display: block;
+  height: auto;
 }
 
 .ostekasse {
-  width: 80%;
+  width: 85%;
   display: block;
+  height: auto;
   opacity: 100%;
   padding-top: 75px;
   padding-left: 100px;
@@ -26,13 +43,54 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: #c7d2ddbd;
+  background-color: #c7d2dd7c;
 }
 
-.tekst_pris {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  gap: 1.5rem;
+/*******************POP UP*******************/
+
+#popup {
+  position: absolute;
+  background-color: #c7d2dd;
+  width: 20%;
+  height: 95px;
+}
+
+.close {
+  color: #606060;
+  float: right;
+  padding-right: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup_tekst {
+  color: #606060;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/************************MOBIL***********************/
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-family: "playfair";
+    padding-top: 70px;
+    font-size: 30px;
+  }
+
+  #grid_ostekasser {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #c7d2ddbd;
+  }
 }

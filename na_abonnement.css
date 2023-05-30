@@ -35,7 +35,7 @@ h2{
 }
 
 .ostekassen1{
-   background-image: url(billeder_ostekasser/ostekassenfotoLille.jpeg);
+   background-image: url(billeder_ostekasser/ostekassenfotoLille1.png);
    background-size: contain;
    background-repeat: no-repeat;
    width:100%;
@@ -74,7 +74,7 @@ h2{
    padding-left: 140px;
    padding-top: 5px;
    font-family: 'Montserrat', sans-serif;
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 15px;
    
 }
@@ -94,7 +94,7 @@ h2{
    padding-right: 80px;
    padding-top: 15px;
    font-family: 'Montserrat', sans-serif;
-   font-weight: bolder;
+  
 }
 
 
