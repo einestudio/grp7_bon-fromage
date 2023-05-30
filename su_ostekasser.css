@@ -24,11 +24,14 @@ h1 {
 #ostekasse_cover {
   width: 100%;
   padding-bottom: 5%;
+  display: block;
+  height: auto;
 }
 
 .ostekasse {
   width: 85%;
   display: block;
+  height: auto;
   opacity: 100%;
   padding-top: 75px;
   padding-left: 100px;
