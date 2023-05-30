@@ -42,3 +42,35 @@ h1 {
   grid-template-rows: 1fr 1fr;
   background-color: #c7d2ddbd;
 }
+
+/*******************POP UP*******************/
+
+#popup {
+  position: absolute;
+  background-color: #c7d2dd;
+  width: 20%;
+  height: 95px;
+}
+
+.close {
+  color: #606060;
+  float: right;
+  padding-right: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup_tekst {
+  color: #606060;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
