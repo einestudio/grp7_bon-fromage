@@ -74,3 +74,20 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
+
+/************************MOBIL***********************/
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-family: "playfair";
+    padding-top: 70px;
+    font-size: 30px;
+  }
+
+  #grid_ostekasser {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #c7d2ddbd;
+  }
+}
