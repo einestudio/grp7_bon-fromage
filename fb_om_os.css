@@ -14,63 +14,65 @@ h1 {
   margin-top: 8%;
   font-size: 0.8rem;
   line-height: 25px;
-  font-family: 'Montserrat', sans-serif;
-   font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 
 .text_box {
   margin-top: 50px;
   margin-left: 25px;
-  
-  background-color: #C7D2DD;
+
+  background-color: #c7d2dd;
   width: 450px;
   height: 600px;
 }
 
-
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /******************************************** web ****************************************************/
 
 @media (min-width: 750px) {
+  /************************ billeder ****************************/
+  img {
+    margin-left: 0px;
+  }
+  .billed_ejer {
+    margin-top: 130px;
+  }
+  .billed_butik {
+    margin-top: 15px;
+  }
 
-/************************ billeder ****************************/
-img {
-margin-left: 0px;
-  
-}
-.billed_ejer {
-  margin-top: 130px;
-}
-.billed_butik {
-  margin-top: 15px;
-}
-
-/*************************** tekst ******************************/
-.tekst p {
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 8%;
-  font-size: 1rem;
-  line-height: 25px;
-}
-.text_box {
-  margin-top: 200px;
-  margin-left: 45px;
-  background-color: #C7D2DD;
-  width: 500px;
-  height: 700px;
-}
-/*******************************grid*****************************/
-.grid_omos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.grid_billeder {
-  grid-column: 1;
-  grid-row: 1;
-}
-.tekst {
-  grid-column: 2;
-  grid-row: 1;
-}
+  /*************************** tekst ******************************/
+  .tekst p {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .text_box {
+    margin-top: 200px;
+    margin-left: 45px;
+    background-color: #c7d2dd;
+    width: 500px;
+    height: 700px;
+  }
+  /*******************************grid*****************************/
+  .grid_omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_billeder {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .tekst {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
