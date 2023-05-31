@@ -64,14 +64,14 @@ video {
     margin-right: 5%;
     margin-top: 8%;
     font-size: 1rem;
-    line-height: 25px;
+    line-height: 27px;
   }
   .text_box {
-    margin-top: 120px;
+    margin-top: 15%;
     margin-left: 45px;
     background-color: #c7d2dd;
     width: 500px;
-    height: 700px;
+    height: 760px;
   }
   /*******************************grid*****************************/
   .grid_omos {
