@@ -5,48 +5,55 @@
 
 h1{
    padding-top: 70px;
+   color: white;
 
 }
 
 .video_boks{
-   border-style: solid;
-   width: 1000px;
-   height: 600px;
-  margin: 0 auto;
-  margin-top: 60px;
+   position: absolute;
+   right: 0;
+   z-index: -1;
    
-   
+  
 }
 
 h2{
     text-align: center;
     font-family: 'playfair';
-    padding-top: 100px;
+    padding-top: 1100px;
+    font-size: 30px;
  }
 
 .foto_boks{
-    background-color:#c7d2ddd9;
-    width: 1000px;
+   background-color:#c7d2ddd9;
+    width: 100%;
     height: 600px;
    margin: 0 auto;
-   margin-top: 20px;
+   margin-top: 30px;
     
     
 }
+
+.foto_grid{
+   display: flex;
+   
+}
+
+
 
 .ostekassen1{
    background-image: url(billeder_ostekasser/ostekassenfotoLille1.png);
    background-size: contain;
    background-repeat: no-repeat;
-   width:100%;
-   height: 230px;
-   margin-top: 38px;
-   margin-left: 38px;
+   width:200%;
+   height: 800px;
+   margin-top: 70px;
+   margin-left: 70px;
 }
 
 .bestil{
-   height: 30px;
-   width: 70px;
+   height: 35px;
+   width: 80px;
    background-color: #b5b7bcbd;
   
  
@@ -54,24 +61,25 @@ h2{
 
 .bestil_p{
    font-family: 'Montserrat', sans-serif;
-   color: rgb(63, 63, 63);
+   color: rgb(65, 65, 65);
    text-align: center;
-   padding-top: 4px;
+   padding-top: 6px;
    cursor: pointer;
-   
+
 }
 
 .pris{
-   padding-left: 60px;
+   padding-left: 0px;
    padding-top: 10px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 15px;
+   font-size: 17px;
+  
    
 }
 
 .pris2{
-   padding-left: 140px;
+   padding-left: 53px;
    padding-top: 5px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bolder;
@@ -87,13 +95,14 @@ h2{
 
    display: flex;
    flex-direction: column;
-   gap: 15px;
+   gap: 10px;
    line-height: 25px;
-   font-size: 15px;
-   padding-left: 20px;
-   padding-right: 80px;
-   padding-top: 15px;
+   font-size: 17px;
+   padding-right: 180px;
+   padding-left: 130px;
+   padding-top: 33px;
    font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
   
 }
 
