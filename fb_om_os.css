@@ -1,5 +1,11 @@
 /*******************mobil******************************/
-
+.main_omos {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+img {
+  margin-left: 0px;
+}
 /**************** tekst ************************/
 
 h1 {
@@ -19,7 +25,7 @@ h1 {
 }
 
 .text_box {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 25px;
 
   background-color: #c7d2dd;
@@ -28,6 +34,7 @@ h1 {
 }
 
 video {
+  margin-top: 15%;
   width: 100%;
   height: auto;
   display: block;
@@ -37,10 +44,10 @@ video {
 @media (min-width: 750px) {
   /************************ billeder ****************************/
   img {
-    margin-left: 0px;
+    margin-left: 10px;
   }
-  .billed_ejer {
-    margin-top: 130px;
+  video {
+    margin-left: 10px;
   }
   .billed_butik {
     margin-top: 15px;
@@ -56,7 +63,7 @@ video {
     line-height: 25px;
   }
   .text_box {
-    margin-top: 200px;
+    margin-top: 120px;
     margin-left: 45px;
     background-color: #c7d2dd;
     width: 500px;
