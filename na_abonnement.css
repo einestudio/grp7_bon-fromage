@@ -69,22 +69,27 @@ h2{
 }
 
 .pris{
-   padding-left: 0px;
-   padding-top: 10px;
+
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: 17px;
+   font-size: 15px;
+   position: absolute;
+   margin-top: 375px;
+   padding-left: 80px;
   
    
 }
 
 .pris2{
-   padding-left: 53px;
-   padding-top: 5px;
+  
    font-family: 'Montserrat', sans-serif;
    font-weight: bolder;
    font-size: 15px;
-   
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 180px;
+   font-weight: bold;
+ 
 }
 
 
@@ -95,12 +100,12 @@ h2{
 
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 5px;
    line-height: 25px;
    font-size: 17px;
-   padding-right: 180px;
-   padding-left: 130px;
-   padding-top: 33px;
+   padding-right: 240px;
+   padding-left: 140px;
+   padding-top: 32px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bolder;
   
@@ -123,11 +128,13 @@ h2{
 
  
  .close {
-   color: #7c7c7c;
+   color: #575757;
    float: right;
    padding-right: 6px;
    font-size: 20px;
    cursor: pointer;
+   font-weight: lighter;
+
  }
  
  .close:hover,
@@ -138,7 +145,7 @@ h2{
  }
 
  .popup_tekst{
-   color: #606060;
+   color: #454545;
    padding-top: 35px;
    text-align: center;
    font-family: 'Montserrat', sans-serif;
