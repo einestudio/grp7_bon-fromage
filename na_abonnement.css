@@ -210,26 +210,10 @@ h2{
    padding-left: 40px;
 }
 
-.pris{
-   padding-left: 40px;
-   padding-top: 10px;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: bold;
-   font-size: 12px;
-   margin-top: 0;
-   
-}
 
-.pris2{
-   padding-left: 40px;
-   padding-top: 5px;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: bold;
-   font-size: 12px;
-   margin-top: 0;
-   
+.pris, .pris2{
+   display: none ;
 }
-
 
 
 
