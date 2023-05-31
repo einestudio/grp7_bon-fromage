@@ -81,16 +81,16 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 30%;
   height: 150px;
   background-color: #71181f8d;
-  margin: 10% 5%;
+  margin: 12% 5%;
 }
 
-.box {
+.box_1_1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border-radius: 5px;
