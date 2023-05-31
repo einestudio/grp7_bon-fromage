@@ -31,20 +31,12 @@ h2 {
 }
 
 .grid_ost {
-  background-color: #c7d2dd7c;
+  background-color: #c7d2dd96;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 20px;
-}
-
-.grid_1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
 }
 
 /******************* sidebar *******************/
@@ -138,52 +130,56 @@ h2 {
   font-size: 14px;
 }
 
-
 /************************* mobil *****************************/
-
 /********************* popup *******************/
 
 @media (max-width: 800px) {
+  #popup {
+    position: absolute;
+    background-color: #fffffff4;
+    width: 30%;
+    height: 80px;
+    margin-left: 270px;
+    border: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+  }
 
-#popup {
-  position: absolute;
-  background-color: #fffffff4;
-  width: 30%;
-  height: 80px;
-  margin-left: 270px;
-  border: solid;
-  border-width: 1px;
-  border-color: #bfbfbf;
+  h2 {
+    text-align: center;
+    font-family: "playfair";
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .grid_ost {
+    background-color: #c7d2dd96;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+  }
+
+  .close {
+    color: #606060;
+    float: right;
+    padding-right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .popup_tekst {
+    color: #606060;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+  }
 }
-
-.close {
-  color: #606060;
-  float: right;
-  padding-right: 6px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.popup_tekst {
-  color: #606060;
-  padding-top: 30px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-}
-
-
-
-
-}
-
-
-
-
