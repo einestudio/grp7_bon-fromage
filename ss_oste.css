@@ -101,3 +101,39 @@ h2 {
 .show-sidebar .content {
   margin-left: 250px;
 }
+
+/*******************POP UP*******************/
+
+#popup {
+  position: absolute;
+  background-color: #fffffff4;
+  width: 20%;
+  height: 95px;
+  margin-left: 1100px;
+  border: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+}
+
+.close {
+  color: #606060;
+  float: right;
+  padding-right: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup_tekst {
+  color: #606060;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
