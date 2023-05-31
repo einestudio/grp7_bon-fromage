@@ -106,20 +106,19 @@ h1 {
     margin-right: 20px;
   }
 
-
-/********************* popup *******************/
+  /*********************POP UP************************/
 
   #popup {
     position: absolute;
     background-color: #fffffff4;
     width: 30%;
     height: 80px;
-    margin-left: 270px;
+    margin-left: 265px;
     border: solid;
     border-width: 1px;
     border-color: #bfbfbf;
   }
-  
+
   .close {
     color: #606060;
     float: right;
@@ -127,14 +126,14 @@ h1 {
     font-size: 20px;
     cursor: pointer;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   .popup_tekst {
     color: #606060;
     padding-top: 30px;
@@ -142,6 +141,4 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
   }
-  
-
 }
