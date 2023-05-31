@@ -157,23 +157,28 @@ h2{
 /************************ mobilsite ***********************/
 @media(max-width:800px){
 
+ 
 
 
 
+
+   .video_boks{
+   display: none;
+     
+    
+   }
 
 
 
 h1{
-   text-align: center;
-   font-family: 'playfair';
-   padding-top: 70px;
-   font-size: 30px;
+  
+   display: none;
 }
 
 h2{
     text-align: center;
     font-family: 'playfair';
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 20px;
  }
 
@@ -183,17 +188,25 @@ h2{
     height: 790px;
    margin: 0 auto;
    margin-top: 20px;
-   display: flex;
-   flex-direction: column;
-   flex-flow: column-reverse;
-   
-    
+
     
 }
 
+
+
+.bestil{
+   display: none;
+}
+
+.foto_grid{
+   display: flex;
+   flex-direction: column;
+   flex-flow: column-reverse;
+}
+
 .ostekassen1{
-   width: 80%;
-   padding-top: 30px;
+   width: 60%;
+   margin-top: 30px;
    padding-left: 40px;
 }
 
@@ -203,6 +216,7 @@ h2{
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    font-size: 12px;
+   margin-top: 0;
    
 }
 
@@ -212,7 +226,7 @@ h2{
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    font-size: 12px;
-   padding-bottom: 20px;
+   margin-top: 0;
    
 }
 
@@ -231,10 +245,53 @@ h2{
    padding-left: 7px;
    font-family: 'Montserrat', sans-serif;
    font-weight: bolder;
-   padding-top: 1px;
+   padding-top: 10px;
 
 
 }
+
+
+
+
+#popup {
+   position:absolute;
+   background-color: #fffffff4;
+   width: 25%;
+   height: 100px;
+   margin-left: 280px;
+   margin-bottom: 425px;
+   border: solid;
+   border-width: 1px;
+   border-color: #bfbfbf;
+ }
+
+
+ 
+ .close {
+   color: #575757;
+   float: right;
+   padding-right: 6px;
+   font-size: 20px;
+   cursor: pointer;
+   font-weight: lighter;
+
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ .popup_tekst{
+   color: #454545;
+   padding-top: 35px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 10px;
+  
+ }
 
 
 

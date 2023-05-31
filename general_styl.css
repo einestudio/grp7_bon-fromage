@@ -199,6 +199,8 @@ img {
   }
   .burger {
     display: block;
+    position: absolute;
+    padding-top: 75px;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
@@ -245,6 +247,7 @@ img {
     background-image: url(logos/smaa_tiles.svg);
     background-size: cover;
     background-attachment: fixed;
+
   }
 
   /****************** footer *******************/
@@ -290,5 +293,9 @@ img {
     display: flex;
     flex-direction: column;
     gap: 50px;
+  }
+
+  .popup{
+    
   }
 }
