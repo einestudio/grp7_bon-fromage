@@ -1,7 +1,6 @@
 /*******************mobil******************************/
 .main_omos {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin: 5%;
 }
 img {
   margin-left: 0px;
@@ -26,8 +25,7 @@ h1 {
 
 .text_box {
   margin-top: 30px;
-  margin-left: 25px;
-
+  margin-left: 2px;
   background-color: #c7d2dd;
   width: 450px;
   height: 600px;
@@ -42,6 +40,10 @@ video {
 /******************************************** web ****************************************************/
 
 @media (min-width: 750px) {
+  .main_omos {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
   /************************ billeder ****************************/
   img {
     margin-left: 10px;
