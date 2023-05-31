@@ -44,9 +44,20 @@
 
   nav.active .menu li {
     margin: 10px 20px;
+    list-style-type: none;
   }
 
   nav.active .menu a {
     font-size: 14px;
+    text-decoration: none;
+    color: black;
+  
+   
+  }
+
+  nav.active .menu a:hover{
+
+    color:#71181f;
+
   }
 }
