@@ -54,10 +54,13 @@ h1 {
 
 #popup {
   position: absolute;
-  background-color: #c7d2dd;
+  background-color: #fffffff4;
   width: 20%;
   height: 95px;
   margin-left: 1100px;
+  border: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
 }
 
 .close {
