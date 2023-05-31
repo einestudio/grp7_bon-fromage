@@ -1,3 +1,8 @@
+.main_ostekasse {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
 /*******************TEKST*********************/
 h1 {
   text-align: center;
@@ -32,7 +37,6 @@ h1 {
   width: 85%;
   display: block;
   height: auto;
-  opacity: 100%;
   padding-top: 75px;
   padding-left: 100px;
 }
@@ -90,7 +94,11 @@ h1 {
   #grid_ostekasser {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     background-color: #c7d2ddbd;
+  }
+
+  .main_ostekasse {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
