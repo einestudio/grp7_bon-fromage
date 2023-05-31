@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  --primary: #71181f;
+}
 img {
   width: 100%;
   display: block;
@@ -109,11 +111,6 @@ img {
 
   /****************** main *******************/
 
-
-
-
-  
-
   main {
     height: auto;
     max-width: 1450px;
@@ -126,12 +123,11 @@ img {
     background-attachment: fixed;
   }
 
-
-  
-
-  /****************** footer *******************/
+  /****************** footer her er var *******************/
   footer {
-    background-color: #71181f;
+    background-color: var(--primary);
+  
+    /* background-color: #71181f; */
     height: 350px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -213,7 +209,7 @@ img {
   .burger.active .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-  
+
   /****************** header *******************/
 
   .gul_top {
@@ -237,7 +233,6 @@ img {
   .logo {
     width: 45%;
     padding-top: 5px;
-
   }
 
   .logo2 {
@@ -256,7 +251,6 @@ img {
     background-image: url(logos/smaa_tiles.svg);
     background-size: cover;
     background-attachment: fixed;
-
   }
 
   /****************** footer *******************/
@@ -303,6 +297,4 @@ img {
     flex-direction: column;
     gap: 50px;
   }
-
- 
 }
