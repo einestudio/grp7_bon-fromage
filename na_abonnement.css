@@ -110,14 +110,20 @@ h2{
  
  #popup {
    position:absolute;
-   background-color: #c7d2dd;
+   background-color: #ffffff73;
    width: 20%;
-   height: 95px;
- 
+   height: 100px;
+   margin-left: 1110px;
+   margin-top: 65px;
+   border: solid;
+   border-width: 1px;
+   border-color: #bfbfbf;
  }
+
+
  
  .close {
-   color: #606060;
+   color: #7c7c7c;
    float: right;
    padding-right: 6px;
    font-size: 20px;
